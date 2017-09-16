@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/josh/AndroidStudioProjects/OgreLiveWallpaper/app/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/opt/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/josh/AndroidStudioProjects/OgreLiveWallpaper/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/opt/android-sdk/cmake/3.6.4111459/bin/cmake --build /home/josh/AndroidStudioProjects/OgreLiveWallpaper/app/.externalNativeBuild/cmake/release/armeabi-v7a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/opt/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/opt/android-sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -I../../../../include/OGRE -I../../../../include/OGRE/Android -I../../../../include/OGRE/Bites -I../../../../include/OGRE/HLMS -I../../../../include/OGRE/MeshLodGenerator -I../../../../include/OGRE/Overlay -I../../../../include/OGRE/Paging -I../../../../include/OGRE/Plugins/OctreeSceneManager -I../../../../include/OGRE/Plugins/ParticleFX -I../../../../include/OGRE/Property -I../../../../include/OGRE/RenderSystems/GLES2 -I../../../../include/OGRE/RTShaderSystem -I../../../../include/OGRE/Terrain -I../../../../include/OGRE/Threading -I../../../../include/OGRE/Volume -isystem /opt/android-sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /opt/android-sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /opt/android-sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /opt/android-sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/josh/AndroidStudioProjects/OgreLiveWallpaper/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/home/josh/AndroidStudioProjects/OgreLiveWallpaper/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/home/josh/AndroidStudioProjects/OgreLiveWallpaper/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "6283050715996131352"
+		}
+	},
+	"toolchains" : 
+	{
+		"6283050715996131352" : 
+		{
+			"cCompilerExecutable" : "/opt/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/opt/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

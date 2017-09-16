@@ -1,0 +1,3 @@
+/mnt/D/Copy/Programing/GitHub/OgreLiveWallpaper/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/rebuild_cache.dir
+/mnt/D/Copy/Programing/GitHub/OgreLiveWallpaper/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/edit_cache.dir
+/mnt/D/Copy/Programing/GitHub/OgreLiveWallpaper/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/native-lib.dir
