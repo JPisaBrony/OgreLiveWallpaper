@@ -58,11 +58,8 @@ target_link_libraries( # Specifies the target library.
                        ${CMAKE_SOURCE_DIR}/lib/libOgreBitesStatic.a
                        ${CMAKE_SOURCE_DIR}/lib/OGRE/libPlugin_OctreeSceneManagerStatic.a
                        ${CMAKE_SOURCE_DIR}/lib/OGRE/libPlugin_ParticleFXStatic.a
-                       ${CMAKE_SOURCE_DIR}/lib/libOgreVolumeStatic.a
-                       ${CMAKE_SOURCE_DIR}/lib/libOgrePagingStatic.a
                        ${CMAKE_SOURCE_DIR}/lib/libOgreOverlayStatic.a
                        ${CMAKE_SOURCE_DIR}/lib/libOgreRTShaderSystemStatic.a
-                       ${CMAKE_SOURCE_DIR}/lib/libOgreTerrainStatic.a
                        ${CMAKE_SOURCE_DIR}/lib/libOgreHLMSStatic.a
                        ${CMAKE_SOURCE_DIR}/lib/OGRE/libRenderSystem_GLES2Static.a
                        ${CMAKE_SOURCE_DIR}/lib/libOgreGLSupportStatic.a
