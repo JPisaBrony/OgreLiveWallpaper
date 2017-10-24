@@ -4,3 +4,4 @@ app/lib
 .externalNativeBuild
 .gradle
 .idea
+*.iml
