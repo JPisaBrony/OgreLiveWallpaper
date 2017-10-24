@@ -1,6 +1,5 @@
 build
 app/build
-app/lib
 .externalNativeBuild
 .gradle
 .idea
