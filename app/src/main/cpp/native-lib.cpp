@@ -71,6 +71,7 @@ extern "C" {
 void createScene() {
     // setup our scene manager
     scnMgr = appContext.getRoot()->createSceneManager(ST_GENERIC);
+    scnMgr->setAmbientLight(Ogre::ColourValue(0.5, 0.5, 0.5));
     // initialize RTSS
     ShaderGenerator::initialize();
     ShaderGenerator *shaderGen = ShaderGenerator::getSingletonPtr();
